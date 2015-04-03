@@ -22,6 +22,8 @@ function getCountryFromCode($country_code) {
 	return isset($countries[strtolower($country_code)]) ? $countries[strtolower($country_code)] : '';
 }
 
+/* et là je rajoute un commentaire */
+
 /* piqué là : http://www.phpro.org/examples/Convert-Object-To-Array-With-PHP.html 
  * fonction pour transformer n'importe quel objet en tableau PHP
  * */
